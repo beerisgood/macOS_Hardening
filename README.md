@@ -18,3 +18,5 @@
 - How to protect Mac computers from cold boot attacks [Youtube](https://www.youtube.com/watch?v=d_M18sq0TIQ)
 - How to spoof MAC address and hostname automatically at boot on macOS [Youtube](https://www.youtube.com/watch?v=ASXANpr_zX8)
 - Why Macs equipped with T2 chip are bad for hackers [Youtube](https://www.youtube.com/watch?v=brGLX_92F5o)
+- macOS has [Hardened Runtime](https://developer.apple.com/documentation/security/hardened_runtime) for user space code
+- M1 Macs have [Kernel Integrity Protection](https://manuals.info.apple.com/MANUALS/1000/MA1902/en_US/apple-platform-security-guide.pdf#page=50) (KIP) for kernel code
