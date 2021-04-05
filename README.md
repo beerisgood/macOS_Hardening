@@ -1,4 +1,4 @@
-(Work in Progress)
+![Work in progress label](https://img.shields.io/badge/-Work%20in%20Progress-yellowgreen) ![GitHub last commit](https://img.shields.io/github/last-commit/beerisgood/macOS_Hardening?label=last%20update%3A)
 
 # macOS_Hardening
 - set your Mac to check for software updates [automatically](https://support.apple.com/guide/mac-help/get-macos-updates-mchlpx1065/mac)
