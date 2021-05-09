@@ -5,7 +5,7 @@
 - use apps [included](https://support.apple.com/guide/mac-help/built-in-apps-mchl110b00b7/mac) on your Mac instead of Third-Party ones
 - install new applications only from [App Store](https://support.apple.com/guide/app-store/get-apps-and-safari-extensions-fir9b2ea074e/mac)
 - [automatically](https://support.apple.com/guide/app-store/update-apps-fir9b01adda3/mac) keep apps up to date
-- don't turn off OS internal [XProtect](https://support.apple.com/guide/security/protecting-against-malware-sec469d47bd8/web) for protection against malware
+- don't turn off internal [XProtect](https://support.apple.com/guide/security/protecting-against-malware-sec469d47bd8/web) or [Gatekeeper](https://support.apple.com/HT202491) for protection against malware
 - enable [Application Firewall](https://support.apple.com/en-us/HT201642)
 - turn on [FileVault](https://support.apple.com/en-us/HT204837)
 - [password protect](https://support.apple.com/guide/mac-help/require-a-password-after-waking-your-mac-mchlp2270/11.0/mac/11.0) your [screen saver](https://support.apple.com/guide/mac-help/use-a-screen-saver-mchl4b68853d/mac)
