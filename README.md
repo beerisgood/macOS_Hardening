@@ -1,6 +1,6 @@
 ![Work in progress label](https://img.shields.io/badge/-Work%20in%20Progress-yellowgreen) ![GitHub last commit](https://img.shields.io/github/last-commit/beerisgood/macOS_Hardening?label=last%20update%3A)
 
-take also a look at: https://github.com/drduh/macOS-Security-and-Privacy-Guide and https://github.com/sunknudsen/privacy-guides
+take also a look at: https://github.com/drduh/macOS-Security-and-Privacy-Guide & https://github.com/sunknudsen/privacy-guides
 
 # Requirements
 - device with Apple [M1 chip](https://en.wikipedia.org/wiki/Apple_M1) because of secure ARM architecture, but at least a device with [T2 chip](https://support.apple.com/guide/security/secf020d1074/1/web/1)
