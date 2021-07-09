@@ -15,9 +15,8 @@ take also a look at: https://github.com/drduh/macOS-Security-and-Privacy-Guide &
 - [x] turn on [FileVault](https://support.apple.com/en-us/HT204837)
 - [x] [password protect](https://support.apple.com/guide/mac-help/require-a-password-after-waking-your-mac-mchlp2270/11.0/mac/11.0) your [screen saver](https://support.apple.com/guide/mac-help/use-a-screen-saver-mchl4b68853d/mac)
 - [x] disable [remote access](https://support.apple.com/guide/remote-desktop/enable-remote-management-apd8b1c65bd/mac)
-- [x] setup backup with [Time Machine](https://support.apple.com/en-us/HT201250)
-- [x] [disable](https://support.apple.com/en-us/HT201476) automatic login during startup
-- [x] [Set up](https://support.apple.com/guide/mac-help/set-up-other-users-on-your-mac-mtusr001/mac) users, guests, and groups on Mac
+- [x] setup backup with [Time Machine](https://support.apple.com/en-us/HT201250) and make sure you have encryption turned on
+- [x] [set up](https://support.apple.com/guide/mac-help/set-up-other-users-on-your-mac-mtusr001/mac) users, guests, and groups on Mac
 
 ## Further Hardening / reading material
 - [ ] How to protect Mac computers from cold boot attacks [Youtube](https://www.youtube.com/watch?v=d_M18sq0TIQ)
