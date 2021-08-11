@@ -31,3 +31,4 @@ take also a look at: https://github.com/drduh/macOS-Security-and-Privacy-Guide &
 - [ ] rc3 event: [Escape the macOS sandbox and TCC](https://media.ccc.de/v/rc3-10175-escape_the_macos_sandbox_and_tcc)
 - [ ] macOS IR (Incident Response) & Forensics [resources](https://gist.github.com/0xmachos/6e8b813cffc2035914606bd4cda491d2)
 - [ ] CIS (Center for Internet Security, Inc) [Security Benchmarks](https://www.cisecurity.org/benchmark/apple_os/)
+- [ ] NIST Security Technical Implementation [Guide](https://ncp.nist.gov/checklist/976)
