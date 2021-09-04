@@ -32,3 +32,4 @@ take also a look at: https://github.com/drduh/macOS-Security-and-Privacy-Guide &
 - [ ] macOS IR (Incident Response) & Forensics [resources](https://gist.github.com/0xmachos/6e8b813cffc2035914606bd4cda491d2)
 - [ ] CIS (Center for Internet Security, Inc) [Security Benchmarks](https://www.cisecurity.org/benchmark/apple_os/)
 - [ ] NIST Security Technical Implementation [Guide](https://ncp.nist.gov/checklist/976)
+- [ ] [About](https://support.apple.com/en-us/HT208394) speculative execution vulnerabilities in ARM-based and Intel CPUs
