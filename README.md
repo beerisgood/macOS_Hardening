@@ -22,6 +22,7 @@ take also a look at: https://github.com/drduh/macOS-Security-and-Privacy-Guide &
 - [x] setup backup with [Time Machine](https://support.apple.com/en-us/HT201250) and make sure you have encryption turned on
 - [x] [NextDNS](https://nextdns.io/?from=qvnr8eu8) provide a [easy solution](https://apple.nextdns.io/) for encrypting DNS (even if DNS encryption [isn't perfect](https://madaidans-insecurities.github.io/encrypted-dns.html)), but also protects against malware, ads, trackers and more - with [top marks](https://www.youtube.com/watch?v=wSAWCMTwPiU&t=1094s)
 - [x] [avoid](https://support.apple.com/guide/deployment-reference-macos/kernel-extensions-in-macos-apd37565d329/web) Kernel extensions (Kexts)
+- [x] using an [unprivileged user account](https://help.apple.com/machelp/mac/10.12/index.html#/mh11389) for day-to-day use, it is considered best practice by Apple itself
 
 ## Further Hardening / reading material
 - [ ] [set up](https://support.apple.com/guide/mac-help/set-up-other-users-on-your-mac-mtusr001/mac) users, guests, and groups on Mac
