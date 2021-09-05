@@ -6,6 +6,7 @@ take also a look at: https://github.com/drduh/macOS-Security-and-Privacy-Guide &
 
 # Requirements
 - device with Apple [M1 chip](https://en.wikipedia.org/wiki/Apple_M1) because of secure ARM architecture, but at least a device with [T2 chip](https://support.apple.com/guide/security/secf020d1074/1/web/1)
+- cleaned [NVRAM (nonvolatile random-access memory)/ PRAM (Parameter RAM)](https://support.apple.com/en-us/HT204063) & [SMC (system management controller)](https://support.apple.com/en-us/HT201295)
 
 # macOS_Hardening
 - [x] set your Mac to check for software updates [automatically](https://support.apple.com/guide/mac-help/get-macos-updates-mchlpx1065/mac)
