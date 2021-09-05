@@ -33,3 +33,4 @@ take also a look at: https://github.com/drduh/macOS-Security-and-Privacy-Guide &
 - [ ] CIS (Center for Internet Security, Inc) [Security Benchmarks](https://www.cisecurity.org/benchmark/apple_os/)
 - [ ] NIST Security Technical Implementation [Guide](https://ncp.nist.gov/checklist/976)
 - [ ] [About](https://support.apple.com/en-us/HT208394) speculative execution vulnerabilities in ARM-based and Intel CPUs
+- [ ] About [System Integrity Protection](https://support.apple.com/en-us/HT204899) (SIP) on your Mac
