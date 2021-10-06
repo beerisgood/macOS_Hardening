@@ -1,6 +1,6 @@
 ![MacOS stable](https://badgen.net/badge/icon/MacOS%20Big%20Sur%2011.5?icon=apple&label) ![Work in progress label](https://img.shields.io/badge/-Work%20in%20Progress-yellowgreen) ![GitHub last commit](https://img.shields.io/github/last-commit/beerisgood/macOS_Hardening?label=last%20update%3A)
 
-take also a look at: https://github.com/drduh/macOS-Security-and-Privacy-Guide & https://github.com/usnistgov/macos_security
+take also a look at: https://github.com/usnistgov/macos_security
 
 
 
