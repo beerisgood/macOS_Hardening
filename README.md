@@ -4,7 +4,7 @@
 - Mac with Apple [M1 chip](https://en.wikipedia.org/wiki/Apple_M1) because of secure ARM architecture, but at least a device with [T2 chip](https://support.apple.com/guide/security/secf020d1074/1/web/1) and Touch Bar. T2 chip physical security may be questionable as it uses the A11 chip which is vulnerable to checkm8 and lacks some hardware security features A12 and above have.
 - M1, M1 Pro, and M1 Max are all the same. Just core and performance changes.
 
-# Do First
+# First steps
 
 - Clean [NVRAM (nonvolatile random-access memory)/ PRAM (Parameter RAM)](https://support.apple.com/en-us/HT204063) and [SMC (system management controller)](https://support.apple.com/en-us/HT201295) after purchase
 - [Clean install OS](https://support.apple.com/en-us/HT204904) after purchase
@@ -19,7 +19,7 @@
 
 # General Tips
 - Install software only from the App Store as there is [a mandatory sandbox for all App Store apps](https://developer.apple.com/documentation/security/app_sandbox).
-- It may be better to install Google Chrome, Microsoft Edge, or Hexavalent as WebKit is not well-known for security.
+- It may be better to install Google Chrome, Microsoft Edge, or Hexavalent as WebKit is not well-known for security - while only Safari supports [PrivateRelay](https://support.apple.com/en-us/HT212614)
 - [Password protect](https://support.apple.com/guide/mac-help/require-a-password-after-waking-your-mac-mchlp2270/11.0/mac/11.0) your [screen saver](https://support.apple.com/guide/mac-help/use-a-screen-saver-mchl4b68853d/mac) and use a low time for locking and logout.
 - Backup with [Time Machine](https://support.apple.com/en-us/HT201250) and make sure you have encryption turned on.
 - [NextDNS](https://nextdns.io/?from=qvnr8eu8) provide a [easy solution](https://apple.nextdns.io/) for encrypting DNS (even if DNS encryption [isn't perfect](https://madaidans-insecurities.github.io/encrypted-dns.html)), but also protects against malware, ads, trackers and more - with [top marks](https://www.youtube.com/watch?v=wSAWCMTwPiU&t=1094s)
