@@ -10,7 +10,7 @@
 - [Clean install OS](https://support.apple.com/en-us/HT204904) after purchase
 - T2 Macs, enable firmware password and disable firmware password reset using `firmwarepasswd -disable-reset-capability`. M1 Macs use admin accounts for administrative recovery tasks.
 - Macs with Intel chips, [***disable hyperthreading/SMT***](https://support.apple.com/en-us/HT210108).
-- Enable FileVault _after_ installation for increased entropy
+- [Enable FileVault](https://support.apple.com/en-us/HT204837) _after_ installation for increased entropy
 - Distrust all networks by disallowing all incoming connections in [Firewall settings](https://support.apple.com/en-us/HT201642) (stealth mode).
 - Set your hostname to generic `MacBook` in Sharing settings.
 - Disable all forms of [remote access](https://support.apple.com/guide/remote-desktop/enable-remote-management-apd8b1c65bd/mac) in Sharing settings.
