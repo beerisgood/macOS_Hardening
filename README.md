@@ -1,8 +1,10 @@
 ![MacOS stable](https://badgen.net/badge/icon/MacOS%20Monterey%2012.0.1?icon=apple&label) ![Work in progress label](https://img.shields.io/badge/-Work%20in%20Progress-yellowgreen) ![GitHub last commit](https://img.shields.io/github/last-commit/beerisgood/macOS_Hardening?label=last%20update%3A)
 
 # Device Recommendations
-- Mac with Apple [M1 chip](https://en.wikipedia.org/wiki/Apple_M1) because of secure ARM architecture, but at least a device with [T2 chip](https://support.apple.com/guide/security/secf020d1074/1/web/1) and Touch Bar. T2 chip physical security may be questionable as it uses the A11 chip which is vulnerable to checkm8 and lacks some hardware security features A12 and above have.
-- M1, M1 Pro, and M1 Max are all the same. Just core and performance changes.
+- Mac with Apple [M1 chip](https://en.wikipedia.org/wiki/Apple_M1) because of secure ARM architecture. M1, M1 Pro and M1 Max are all the same. Just core and performance changes.
+ 
+- (Devices with [T2 chip](https://support.apple.com/guide/security/secf020d1074/1/web/1) are no longer recommend, because the A11 chip is vulnerable to checkm8, lacks some hardware security features A12 and above have and is vulnerable against Passware Kit Forensic T2 Add-on.)
+
 
 # First steps
 
