@@ -37,3 +37,4 @@
 - NIST Security Technical Implementation [Guide](https://ncp.nist.gov/checklist/976)
 - [About](https://support.apple.com/en-us/HT208394) speculative execution vulnerabilities in ARM-based and Intel CPUs
 - About [System Integrity Protection](https://support.apple.com/en-us/HT204899) (SIP) on your Mac
+- About [Gatekeeper](https://support.apple.com/en-us/HT202491) - Safely open apps on your Mac
