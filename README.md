@@ -11,7 +11,7 @@
 - Clean [NVRAM (nonvolatile random-access memory)/ PRAM (Parameter RAM)](https://support.apple.com/en-us/HT204063) and [SMC (system management controller)](https://support.apple.com/en-us/HT201295) after purchase
 - [Clean install OS](https://support.apple.com/en-us/HT204904) after purchase
 - Distrust all networks by disallowing all incoming connections in [Firewall settings](https://support.apple.com/en-us/HT201642) (stealth mode).
-- Set your hostname to generic `MacBook` in Sharing settings.
+- Set your hostname to generic `iMac` / `MacBook` / `Mac Mini` in Sharing settings.
 - Check for updates and enable [automatic updates]((https://support.apple.com/guide/mac-help/get-macos-updates-mchlpx1065/mac)).
 - Create an [unprivileged user for day to day use](https://help.apple.com/machelp/mac/10.12/index.html#/mh11389).
 - [Enable FileVault](https://support.apple.com/en-us/HT204837) _after_ installation for increased entropy and also to [protect](https://support.apple.com/en-us/HT204455) your firmware
