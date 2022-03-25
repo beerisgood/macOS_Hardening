@@ -12,13 +12,13 @@
 - [Clean install OS](https://support.apple.com/en-us/HT204904) after purchase
 - Distrust all networks by disallowing all incoming connections in [Firewall settings](https://support.apple.com/en-us/HT201642) (stealth mode).
 - Set your hostname to generic `MacBook` in Sharing settings.
-- Disable all forms of [remote access](https://support.apple.com/guide/remote-desktop/enable-remote-management-apd8b1c65bd/mac) in Sharing settings.
 - Check for updates and enable [automatic updates]((https://support.apple.com/guide/mac-help/get-macos-updates-mchlpx1065/mac)).
 - Create an [unprivileged user for day to day use](https://help.apple.com/machelp/mac/10.12/index.html#/mh11389).
 - [Enable FileVault](https://support.apple.com/en-us/HT204837) _after_ installation for increased entropy and also to [protect](https://support.apple.com/en-us/HT204455) your firmware
 
 # General Tips
 - Install software only from the App Store as there is [a mandatory sandbox for all App Store apps](https://developer.apple.com/documentation/security/app_sandbox).
+- Check if all forms of [remote access](https://support.apple.com/guide/remote-desktop/enable-remote-management-apd8b1c65bd/mac) are disabled in Sharing settings.
 - It may be better to install Google Chrome, Microsoft Edge, or Hexavalent as WebKit is not well-known for security - while only Safari supports [PrivateRelay](https://support.apple.com/en-us/HT212614)
 - [Password protect](https://support.apple.com/guide/mac-help/require-a-password-after-waking-your-mac-mchlp2270/11.0/mac/11.0) your [screen saver](https://support.apple.com/guide/mac-help/use-a-screen-saver-mchl4b68853d/mac) and use a low time for locking and logout.
 - Backup with [Time Machine](https://support.apple.com/en-us/HT201250) and make sure you have encryption turned on.
