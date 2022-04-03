@@ -26,6 +26,8 @@
 - While DNS encryption [isn't perfect](https://madaidans-insecurities.github.io/encrypted-dns.html) both [Quad9](https://www.quad9.net) and [AdGuard](https://adguard-dns.io) are recommend. Quad9 provide a [easy solution](https://www.quad9.net/news/blog/ios-mobile-provisioning-profiles) with Apple signed profiles. [NextDNS](https://nextdns.io/?from=qvnr8eu8) is another service, but it struggles with stability/performance and support issues.
 - Avoid [Kernel extensions](https://support.apple.com/guide/deployment-reference-macos/kernel-extensions-in-macos-apd37565d329/web) (Catalina and earlier) and [System extensions](https://support.apple.com/en-us/HT210999) (Big Sur and later). Both add unnecessary attack surface.
 - Consider using a [more stricter umask](https://support.apple.com/en-us/HT201684) such as 027 or 077 for both system processes and user apps.
+- open Termimal and enable "Secure keyboard entry” at MacOS menu bar to prevent other applications reading the keyboard input while using the terminal
+ 
 
 ## Reading/Informational Material
 - macOS has [Hardened Runtime](https://developer.apple.com/documentation/security/hardened_runtime) for user space code. This is not required for App Store apps and not all apps enable this.
