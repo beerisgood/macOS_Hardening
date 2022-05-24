@@ -42,3 +42,4 @@
 - About [System Integrity Protection](https://support.apple.com/en-us/HT204899) (SIP) on your Mac
 - About [Gatekeeper](https://support.apple.com/en-us/HT202491) - Safely open apps on your Mac
 - [Tracking Prevention](https://webkit.org/tracking-prevention/) in WebKit (Safari browser)
+- Learn how Private Relay [protects](https://www.apple.com/privacy/docs/iCloud_Private_Relay_Overview_Dec2021.PDF) users’ privacy on the internet
