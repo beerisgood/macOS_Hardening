@@ -15,7 +15,7 @@
 - [Enable FileVault](https://support.apple.com/en-us/HT204837) _after_ installation for increased entropy and also to [protect](https://support.apple.com/en-us/HT204455) your firmware
 
 # General Tips
-- Set your hostname to generic `iMac` / `MacBook` / `Mac Mini` in Sharing settings.
+- Set your hostname to generic `iMac` / `MacBook` / `Mac Mini` / `Mac Studio` in Sharing settings.
 - beside FileVault, (encrypted) [disk images](https://support.apple.com/en-us/guide/disk-utility/dskutl11888/mac) can be created for sensitive files (search for "Create secure image file" at bottom)
 - Install software only from the App Store as there is [a mandatory sandbox for all App Store apps](https://developer.apple.com/documentation/security/app_sandbox).
 - Check if all forms of [remote access](https://support.apple.com/guide/remote-desktop/enable-remote-management-apd8b1c65bd/mac) are disabled in Sharing settings.
