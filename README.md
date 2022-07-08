@@ -44,3 +44,4 @@
 - Learn how Private Relay [protects](https://www.apple.com/privacy/docs/iCloud_Private_Relay_Overview_Dec2021.PDF) users’ privacy on the internet
 - [Getting started](https://theevilbit.github.io/posts/getting_started_in_macos_security/) in macOS security
 - Protecting [against malware](https://support.apple.com/en-us/guide/security/sec469d47bd8/web) in macOS
+- (macOS Ventura) AMFI [Launch Constraints](https://theevilbit.github.io/posts/amfi_launch_constraints/) - First Quick Look
