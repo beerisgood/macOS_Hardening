@@ -46,3 +46,4 @@
 - Protecting [against malware](https://support.apple.com/en-us/guide/security/sec469d47bd8/web) in macOS
 - (macOS Ventura) AMFI [Launch Constraints](https://theevilbit.github.io/posts/amfi_launch_constraints/) - First Quick Look
 - [Evolution](https://github.com/beerisgood/macOS_Hardening/blob/main/Evolution%20of%20privacy%20%26%20security.md) of privacy & security in macOS
+- [Data Vault](https://support.apple.com/de-de/guide/security/secc01781f46/1/web/1) - Protecting app access to user data
