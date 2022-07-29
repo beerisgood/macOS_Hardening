@@ -1,9 +1,9 @@
 ![MacOS stable](https://badgen.net/badge/icon/MacOS%20Monterey%2012.5?icon=apple&label) ![GitHub last commit](https://img.shields.io/github/last-commit/beerisgood/macOS_Hardening?label=last%20update%3A)
 
 # Device Recommendations
-- Mac with Apple Silicon Chip ([M1 chip](https://en.wikipedia.org/wiki/Apple_M1) or newer) because of secure ARM architecture. M1, M1 Pro, M1 Max, M1 Ultra are all the same. Just core and performance changes.
+- Mac with Apple Silicon Chip ([M1](https://en.wikipedia.org/wiki/Apple_M1) or newer) because of secure [ARM architecture](https://en.wikipedia.org/wiki/ARM_architecture_family). M1, M1 Pro, M1 Max, M1 Ultra are all the same. Just core and performance changes.
  
-- (Devices with [T2 chip](https://support.apple.com/guide/security/secf020d1074/1/web/1) are no longer recommend, because the A11 chip is vulnerable to checkm8, lacks some hardware security features A12 and above have and is vulnerable against Passware Kit Forensic T2 Add-on.)
+- older devices (T2 or T1 chips) are no longer recommend because vulnerability to [checkm8](https://en.wikipedia.org/wiki/IOS_jailbreaking#checkm8_and_checkra1n), lacks [some hardware security features](https://support.apple.com/en-us/guide/security/sec87716a080/1/web/1) and are vulnerable against Passware Kit Forensic T2 Add-on
 
 
 # First steps
