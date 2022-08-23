@@ -49,3 +49,4 @@
 - [Evolution](https://github.com/beerisgood/macOS_Hardening/blob/main/Evolution%20of%20privacy%20%26%20security.md) of privacy & security in macOS
 - [Data Vault](https://support.apple.com/de-de/guide/security/secc01781f46/1/web/1) - Protecting app access to user data
 - Why your macOS EDR solution [shouldn’t be](https://www.sentinelone.com/blog/why-your-macos-edr-solution-shouldnt-be-running-under-rosetta-2/) running under Rosetta 2
+- PPL ([Page Protection Layer](https://support.apple.com/en-us/guide/security/sec8b776536b/1/web/1#sec314c3af61)) or: why iOS/ iPadOS is much more secure than macOS
