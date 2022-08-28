@@ -51,3 +51,4 @@
 - Why your macOS EDR solution [shouldn’t be](https://www.sentinelone.com/blog/why-your-macos-edr-solution-shouldnt-be-running-under-rosetta-2/) running under Rosetta 2
 - PPL ([Page Protection Layer](https://support.apple.com/en-us/guide/security/sec8b776536b/1/web/1#sec314c3af61)) or: why iOS/ iPadOS is much more secure than macOS
 - "what is": [Effaceable Storage](https://support.apple.com/en-us/guide/security/aside/sec0183122de/1/web/1), [sepOS](https://support.apple.com/en-us/guide/security/aside/secc3e4f7a43/1/web/1)
+- The Complete Guide to Understanding Apple Mac Security [for Enterprise](https://assets.sentinelone.com/macos-security/enterprise-mac-security)
