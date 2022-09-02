@@ -15,6 +15,7 @@
 - [Enable FileVault](https://support.apple.com/en-us/HT204837) _after_ installation for increased entropy and also to [protect](https://support.apple.com/en-us/HT204455) your firmware
 
 # General Tips
+- enable [Two-factor authentication](https://support.apple.com/en-us/HT204915#setup) for your Apple ID
 - Set your hostname to generic `iMac` / `MacBook` / `Mac Mini` / `Mac Studio` in Sharing settings.
 - beside FileVault, (encrypted) [disk images](https://support.apple.com/en-us/guide/disk-utility/dskutl11888/mac) can be created for sensitive files (search for "Create secure image file" at bottom)
 - Install software only from the App Store as there is [a mandatory sandbox for all App Store apps](https://developer.apple.com/documentation/security/app_sandbox). If not possible, at least [Electron based](https://www.electronjs.org/apps) programs [should](https://wojciechregula.blog/post/abusing-electron-apps-to-bypass-macos-security-controls/) [_be_](https://medium.com/@metnew/why-electron-apps-cant-store-your-secrets-confidentially-inspect-option-a49950d6d51f) [avoided](https://blog.xpnsec.com/macos-injection-via-third-party-frameworks/).
