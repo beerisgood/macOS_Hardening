@@ -36,7 +36,7 @@
 - M1 Macs have [Kernel Integrity Protection](https://manuals.info.apple.com/MANUALS/1000/MA1902/en_US/apple-platform-security-guide.pdf#page=50) (KIP) for kernel code
 - M1 Macs use an [improved implementation of ARM's Pointer Authentication Codes](https://developer.apple.com/documentation/security/preparing_your_app_to_work_with_pointer_authentication) (PAC), ensuring backward and forward-edge protection
 - Apple requires that all applications are [sandboxed](https://developer.apple.com/documentation/security/app_sandbox) _only from the App Store_.
-- c3 event: [Escape the macOS sandbox and TCC](https://media.ccc.de/v/rc3-10175-escape_the_macos_sandbox_and_tcc)
+- some [resources](https://github.com/houjingyi233/macOS-iOS-system-security) about macOS/iOS system security
 - macOS IR (Incident Response) & Forensics [resources](https://gist.github.com/0xmachos/6e8b813cffc2035914606bd4cda491d2)
 - CIS (Center for Internet Security, Inc) [Security Benchmarks](https://www.cisecurity.org/benchmark/apple_os/)
 - NIST Security Technical Implementation [Guide](https://ncp.nist.gov/checklist/1017)
