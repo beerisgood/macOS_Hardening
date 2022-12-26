@@ -32,6 +32,7 @@
 
 ## Reading/Informational Material
 - [Security-announce](https://lists.apple.com/mailman/listinfo/security-announce) - Product security notifications and announcements from Apple
+- Apple Platform Security [PDF](https://help.apple.com/pdf/security/en_US/apple-platform-security-guide.pdf)
 - Apple Security Research [Blog & Security Bounty](https://security.apple.com)
 - macOS has [Hardened Runtime](https://developer.apple.com/documentation/security/hardened_runtime) for user space code. This is not required for App Store apps and not all apps enable this.
 - M1 Macs have [Kernel Integrity Protection](https://manuals.info.apple.com/MANUALS/1000/MA1902/en_US/apple-platform-security-guide.pdf#page=50) (KIP) for kernel code
