@@ -57,3 +57,4 @@
 - "what is": [Effaceable Storage](https://support.apple.com/en-us/guide/security/aside/sec0183122de/1/web/1), [sepOS](https://support.apple.com/en-us/guide/security/aside/secc3e4f7a43/1/web/1), [BIMI](https://support.apple.com/en-us/HT213155) support in Apple Mail
 - The Complete Guide to Understanding Apple Mac Security [for Enterprise](https://assets.sentinelone.com/macos-security/enterprise-mac-security)
 - A Guide to macOS Threat Hunting and Incident [Response](https://assets.sentinelone.com/c/sentinal-one-mac-os-?x=fvgtlj)
+- MacOS Security & Privilege [Escalation](https://book.hacktricks.xyz/macos-hardening/macos-security-and-privilege-escalation)
