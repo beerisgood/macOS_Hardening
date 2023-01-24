@@ -15,7 +15,7 @@
 - [Enable FileVault](https://support.apple.com/en-us/HT204837) _after_ installation for increased entropy and also to [protect](https://support.apple.com/en-us/HT204455) your firmware
 
 # General Tips
-- enable [Two-factor authentication](https://support.apple.com/en-us/HT204915#setup) for your Apple ID
+- enable [Two-factor authentication](https://support.apple.com/en-us/HT204915#setup) for your Apple ID and use FIDO [security keys](https://support.apple.com/en-us/HT213154) for it
 - enable [Advanced Data Protection](https://support.apple.com/en-us/HT202303) for iCloud
 - Set your hostname to generic `iMac` / `MacBook` / `Mac Mini` / `Mac Studio` in Sharing settings.
 - beside FileVault, (encrypted) [disk images](https://support.apple.com/en-us/guide/disk-utility/dskutl11888/mac) can be created for sensitive files (search for "Create secure image file" at bottom)
