@@ -58,3 +58,4 @@
 - A Guide to macOS Threat Hunting and Incident [Response](https://assets.sentinelone.com/c/sentinal-one-mac-os-?x=fvgtlj)
 - MacOS Security & Privilege [Escalation](https://book.hacktricks.xyz/macos-hardening/macos-security-and-privilege-escalation)
 - [Let's talk](https://theevilbit.github.io/posts/macos_authorization/) macOS Authorization
+- Harden your devices [against](https://support.apple.com/guide/personal-safety/harden-your-devices-against-mercenary-spyware-ipsd5baf79d0/1.0/web/1.0) mercenary spyware with Lockdown Mode
