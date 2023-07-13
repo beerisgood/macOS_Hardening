@@ -40,7 +40,7 @@
 - some [resources](https://github.com/houjingyi233/macOS-iOS-system-security) about macOS/iOS system security
 - macOS IR (Incident Response) & Forensics [resources](https://gist.github.com/0xmachos/6e8b813cffc2035914606bd4cda491d2)
 - CIS (Center for Internet Security, Inc) [Security Benchmarks](https://www.cisecurity.org/benchmark/apple_os/)
-- NIST Security Technical Implementation [Guide](https://ncp.nist.gov/checklist/1017)
+- NIST Security Technical Implementation [Guide](https://ncp.nist.gov/checklist/1058)
 - [About](https://support.apple.com/en-us/HT208394) speculative execution vulnerabilities in ARM-based and Intel CPUs
 - About [System Integrity Protection](https://support.apple.com/en-us/HT204899) (SIP) on your Mac
 - About [Gatekeeper](https://support.apple.com/en-us/HT202491) (forerunner was [Quarantine](https://0xmachos.com/2019-02-01-Quarantine-Intro/)) - Safely open apps on your Mac
