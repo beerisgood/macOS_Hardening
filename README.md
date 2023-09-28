@@ -26,6 +26,7 @@
 - Consider using a [more stricter umask](https://support.apple.com/en-us/HT201684) such as 027 or 077 for both system processes and user apps.
 - open Termimal and enable "Secure keyboard entry” at MacOS menu bar to prevent other applications reading the keyboard input while using the terminal
 - [encrypt](https://support.apple.com/guide/mac-help/mh40593/13.0/mac/13.0) external media
+- (Macbooks only) [control](https://support.apple.com/guide/deployment/depf8a4cb051/web) accessory security
 
 ## Reading/Informational Material
 - [Security-announce](https://lists.apple.com/mailman/listinfo/security-announce) - Product security notifications and announcements from Apple
