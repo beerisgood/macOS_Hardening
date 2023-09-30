@@ -60,5 +60,5 @@
 - Harden your devices [against](https://support.apple.com/guide/personal-safety/harden-your-devices-against-mercenary-spyware-ipsd5baf79d0/1.0/web/1.0) mercenary spyware with Lockdown Mode
 - [How](https://eclecticlight.co/2023/04/03/how-apfs-mounts-encrypted-volumes-snapshots-cryptexes-and-more/) APFS mounts encrypted volumes, snapshots, cryptexes and more
 - (macOS Sonoma+) [implementations](https://developer.apple.com/documentation/macos-release-notes/macos-14-release-notes#File-System) of exfat and msdos file systems provided by services running in user-space instead of by kernel extensions
-- (Safari 17.0+) [GPU Process](https://webkit.org/blog/14445/webkit-features-in-safari-17-0/) security
+- (Safari 17.0+) [GPU Process](https://webkit.org/blog/14445/webkit-features-in-safari-17-0/) security, [Privacy changes](https://cunderwood.dev/2023/06/09/privacy-changes-coming-to-safari-17/)
 - (macOS 14.0+) [Link Tracking Protection](https://www.apple.com/newsroom/2023/06/apple-announces-powerful-new-privacy-and-security-features/) in Messages, Mail, and Safari
