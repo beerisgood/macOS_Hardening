@@ -1,4 +1,4 @@
-![MacOS stable](https://badgen.net/badge/icon/MacOS%20Sonoma%2014.1?icon=apple&label) ![GitHub last commit](https://img.shields.io/github/last-commit/beerisgood/macOS_Hardening?label=last%20update%3A)
+![MacOS stable](https://badgen.net/badge/icon/MacOS%20Sonoma%2014.1.1?icon=apple&label) ![GitHub last commit](https://img.shields.io/github/last-commit/beerisgood/macOS_Hardening?label=last%20update%3A)
 
 # Device Recommendations
 - Mac with Apple Silicon Chip ([M1](https://en.wikipedia.org/wiki/Apple_M1) or newer) because of secure [ARM architecture](https://en.wikipedia.org/wiki/ARM_architecture_family). (Different M1 models are all the same. Just core and performance changes.)
