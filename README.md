@@ -12,17 +12,18 @@
 - [Enable FileVault](https://support.apple.com/en-us/HT204837)
 
 # General Tips
+- enable [Lockdown Mode](https://support.apple.com/en-us/105120)
 - enable [Two-factor authentication](https://support.apple.com/en-us/HT204915#setup) for your Apple ID and use FIDO [security keys](https://support.apple.com/en-us/HT213154) for it
 - enable [Advanced Data Protection](https://support.apple.com/en-us/HT202303) for iCloud
 - beside FileVault, (encrypted) [disk images](https://support.apple.com/en-us/guide/disk-utility/dskutl11888/mac) can be created for sensitive files (search for "Create secure image file" at bottom)
 - Install software only from the App Store as there is [a mandatory sandbox for all App Store apps](https://developer.apple.com/documentation/security/app_sandbox). If not possible, at least [Electron based](https://www.electronjs.org/apps) programs [should](https://wojciechregula.blog/post/abusing-electron-apps-to-bypass-macos-security-controls/) [_be_](https://medium.com/@metnew/why-electron-apps-cant-store-your-secrets-confidentially-inspect-option-a49950d6d51f) [avoided](https://blog.xpnsec.com/macos-injection-via-third-party-frameworks/).
 - Check if all forms of [remote access](https://support.apple.com/guide/remote-desktop/enable-remote-management-apd8b1c65bd/mac) are disabled in Sharing settings.
-- use only Safari as browser, because it supports [PrivateRelay](https://support.apple.com/en-us/HT212614), [PassKeys](https://support.apple.com/HT213305) and offers the best collaboration in Apple cosmos with privacy by [design](https://www.apple.com/safari/docs/Safari_White_Paper_Nov_2019.pdf)
+- use only Safari as browser, because it supports [PrivateRelay](https://support.apple.com/en-us/HT212614), [PassKeys](https://support.apple.com/HT213305), supports many [privacy features](https://webkit.org/tracking-prevention/), and offers the best compatibility with the Apple ecosystem.
 - [Password protect](https://support.apple.com/guide/mac-help/require-a-password-after-waking-your-mac-mchlp2270/11.0/mac/11.0) your [screen saver](https://support.apple.com/guide/mac-help/use-a-screen-saver-mchl4b68853d/mac) and use a low time for locking and logout.
 - Backup with [Time Machine](https://support.apple.com/en-us/HT201250) and make sure you have encryption turned on.
-- While DNS encryption [isn't perfect](https://madaidans-insecurities.github.io/encrypted-dns.html) both [Quad9](https://www.quad9.net) and [Cloudflare](https://developers.cloudflare.com/1.1.1.1/setup/) are recommend. Quad9 provide a [easy solution](https://www.quad9.net/news/blog/ios-mobile-provisioning-profiles) with Apple signed profiles. [AdGuard](https://adguard-dns.io) and [NextDNS](https://nextdns.io/) are another, but some users report problems like false positive filtering, stability/performance issues.
+- While DNS encryption [isn't perfect](https://madaidans-insecurities.github.io/encrypted-dns.html) both [Quad9](https://www.quad9.net) and [Cloudflare](https://developers.cloudflare.com/1.1.1.1/setup/) are recommended. Quad9 provide an [easy solution](https://www.quad9.net/news/blog/ios-mobile-provisioning-profiles) with Apple signed profiles. [AdGuard](https://adguard-dns.io) and [NextDNS](https://nextdns.io/) are also options, but some users report problems like false positive filtering and stability/performance issues.
 - Avoid [Kernel extensions](https://support.apple.com/guide/deployment/depa5fb8376f/1/web/1.0) (Catalina and earlier), [System extensions](https://support.apple.com/en-us/HT210999) (Big Sur and later) and [Rosetta](https://support.apple.com/en-us/guide/security/secebb113be1/web). These add unnecessary attack surface.
-- Consider using a [more stricter umask](https://support.apple.com/en-us/HT201684) such as 027 or 077 for both system processes and user apps.
+- Consider using a [stricter umask](https://support.apple.com/en-us/HT201684) such as 027 or 077 for both system processes and user apps.
 - open Termimal and enable "Secure keyboard entry” at MacOS menu bar to prevent other applications reading the keyboard input while using the terminal
 - [encrypt](https://support.apple.com/guide/mac-help/mh40593/13.0/mac/13.0) external media
 - (Macbooks only) [control](https://support.apple.com/guide/deployment/depf8a4cb051/web) accessory security
@@ -56,7 +57,6 @@
 - A Guide to macOS Threat Hunting and Incident [Response](https://assets.sentinelone.com/c/sentinal-one-mac-os-?x=fvgtlj)
 - MacOS Security & Privilege [Escalation](https://book.hacktricks.xyz/macos-hardening/macos-security-and-privilege-escalation)
 - [Let's talk](https://theevilbit.github.io/posts/macos_authorization/) macOS Authorization
-- Harden your devices [against](https://support.apple.com/guide/personal-safety/harden-your-devices-against-mercenary-spyware-ipsd5baf79d0/1.0/web/1.0) mercenary spyware with Lockdown Mode
 - [How](https://eclecticlight.co/2023/04/03/how-apfs-mounts-encrypted-volumes-snapshots-cryptexes-and-more/) APFS mounts encrypted volumes, snapshots, cryptexes and more
 - (macOS Sonoma+) [implementations](https://developer.apple.com/documentation/macos-release-notes/macos-14-release-notes#File-System) of exfat and msdos file systems provided by services running in user-space instead of by kernel extensions
 - (Safari 17.0+) [GPU Process](https://webkit.org/blog/14445/webkit-features-in-safari-17-0/) security, [Privacy changes](https://cunderwood.dev/2023/06/09/privacy-changes-coming-to-safari-17/)
