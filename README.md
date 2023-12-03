@@ -12,7 +12,7 @@
 - [Enable FileVault](https://support.apple.com/en-us/HT204837)
 
 # General Tips
-- enable [Lockdown Mode](https://support.apple.com/en-us/105120)
+- enable [Lockdown Mode](https://support.apple.com/guide/personal-safety/harden-your-devices-against-mercenary-spyware-ipsd5baf79d0/1.0/web/1.0)
 - enable [Two-factor authentication](https://support.apple.com/en-us/HT204915#setup) for your Apple ID and use FIDO [security keys](https://support.apple.com/en-us/HT213154) for it
 - enable [Advanced Data Protection](https://support.apple.com/en-us/HT202303) for iCloud
 - beside FileVault, (encrypted) [disk images](https://support.apple.com/en-us/guide/disk-utility/dskutl11888/mac) can be created for sensitive files (search for "Create secure image file" at bottom)
