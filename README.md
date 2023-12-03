@@ -63,3 +63,4 @@
 - (Safari 17.0+) [GPU Process](https://webkit.org/blog/14445/webkit-features-in-safari-17-0/) security, [Privacy changes](https://cunderwood.dev/2023/06/09/privacy-changes-coming-to-safari-17/)
 - (macOS 14.0+) [Link Tracking Protection](https://www.apple.com/newsroom/2023/06/apple-announces-powerful-new-privacy-and-security-features/) in Messages, Mail, and Safari
 - Managed Device Attestation - a [technical exploration](https://jedda.me/managed-device-attestation-a-technical-exploration/)
+- [Built-in](https://www.huntress.com/blog/built-in-macos-security-tools) macOS Security (TCC, File Quarantine, Gatekeeper, XProtect, MRT, XPR)
