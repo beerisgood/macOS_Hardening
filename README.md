@@ -2,7 +2,7 @@
 
 # Device Recommendations
 - Mac with Apple Silicon Chip ([M1](https://en.wikipedia.org/wiki/Apple_M1) or newer) because of secure [ARM architecture](https://en.wikipedia.org/wiki/ARM_architecture_family). Newer chips have better security features, so it's best to stick with the most recent ones.
-<br/>older devices (with T2 or T1 chips) are no longer recommend because they are vulnerable to [checkm8](https://en.wikipedia.org/wiki/Apple_T2#Security_vulnerabilities), Passware Kit Forensic T2 Add-on and lack [some hardware security features](https://support.apple.com/en-us/guide/security/sec87716a080/1/web/1).
+<br/>older devices (with T2 or T1 chips) are no longer recommended because they are vulnerable to [checkm8](https://en.wikipedia.org/wiki/Apple_T2#Security_vulnerabilities), Passware Kit Forensic T2 Add-on and lack [some hardware security features](https://support.apple.com/en-us/guide/security/sec87716a080/1/web/1).
 
 
 # First steps
