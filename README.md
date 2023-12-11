@@ -1,4 +1,4 @@
-![MacOS stable](https://badgen.net/badge/icon/MacOS%20Sonoma%2014.1.2?icon=apple&label) ![GitHub last commit](https://img.shields.io/github/last-commit/beerisgood/macOS_Hardening?label=last%20update%3A)
+![macOS stable](https://badgen.net/badge/icon/MacOS%20Sonoma%2014.1.2?icon=apple&label) ![GitHub last commit](https://img.shields.io/github/last-commit/beerisgood/macOS_Hardening?label=last%20update%3A)
 
 # Device Recommendations
 - Mac with Apple Silicon Chip ([M1](https://en.wikipedia.org/wiki/Apple_M1) or newer) because of secure [ARM architecture](https://en.wikipedia.org/wiki/ARM_architecture_family). Newer chips have better security features, so it's best to stick with the most recent ones.
@@ -13,6 +13,7 @@
 
 # General Tips
 - enable [Lockdown Mode](https://support.apple.com/en-us/105120)
+- Make sure you enable [Full Security](https://support.apple.com/guide/mac-help/change-security-settings-startup-disk-a-mac-mchl768f7291/mac) in your firmware settings (this is the default setting)
 - enable [Two-factor authentication](https://support.apple.com/en-us/HT204915#setup) for your Apple ID and use FIDO [security keys](https://support.apple.com/en-us/HT213154) for it
 - enable [Advanced Data Protection](https://support.apple.com/en-us/HT202303) for iCloud
 - beside FileVault, (encrypted) [disk images](https://support.apple.com/en-us/guide/disk-utility/dskutl11888/mac) can be created for sensitive files (search for "Create secure image file" at bottom)
@@ -24,7 +25,7 @@
 - While DNS encryption [isn't perfect](https://madaidans-insecurities.github.io/encrypted-dns.html) both [Quad9](https://www.quad9.net) and [Cloudflare](https://developers.cloudflare.com/1.1.1.1/setup/) are recommended. Quad9 provide an [easy solution](https://www.quad9.net/news/blog/ios-mobile-provisioning-profiles) with Apple signed profiles. [AdGuard](https://adguard-dns.io) and [NextDNS](https://nextdns.io/) are also options, but some users report problems like false positive filtering and stability/performance issues.
 - Avoid [Kernel extensions](https://support.apple.com/guide/deployment/depa5fb8376f/1/web/1.0) (Catalina and earlier), [System extensions](https://support.apple.com/en-us/HT210999) (Big Sur and later) and [Rosetta](https://support.apple.com/en-us/guide/security/secebb113be1/web). These add unnecessary attack surface.
 - Consider using a [stricter umask](https://support.apple.com/en-us/HT201684) such as 027 or 077 for both system processes and user apps.
-- open Termimal and enable "Secure keyboard entry” at MacOS menu bar to prevent other applications reading the keyboard input while using the terminal
+- open Terminal and enable "Secure keyboard entry” at macOS menu bar to prevent other applications reading the keyboard input while using the terminal
 - [encrypt](https://support.apple.com/guide/mac-help/mh40593/13.0/mac/13.0) external media
 - (Macbooks only) [control](https://support.apple.com/guide/deployment/depf8a4cb051/web) accessory security
 
@@ -55,7 +56,7 @@
 - "what is": [Effaceable Storage](https://support.apple.com/en-us/guide/security/aside/sec0183122de/1/web/1), [sepOS](https://support.apple.com/en-us/guide/security/aside/secc3e4f7a43/1/web/1), [BIMI](https://support.apple.com/en-us/HT213155) support in Apple Mail, signed system volume ([SSV](https://support.apple.com/guide/mac-help/mchl0f9af76f/mac))
 - The Complete Guide to Understanding Apple Mac Security [for Enterprise](https://assets.sentinelone.com/macos-security/enterprise-mac-security)
 - A Guide to macOS Threat Hunting and Incident [Response](https://assets.sentinelone.com/c/sentinal-one-mac-os-?x=fvgtlj)
-- MacOS Security & Privilege [Escalation](https://book.hacktricks.xyz/macos-hardening/macos-security-and-privilege-escalation)
+- macOS Security & Privilege [Escalation](https://book.hacktricks.xyz/macos-hardening/macos-security-and-privilege-escalation)
 - [Let's talk](https://theevilbit.github.io/posts/macos_authorization/) macOS Authorization
 - [How](https://eclecticlight.co/2023/04/03/how-apfs-mounts-encrypted-volumes-snapshots-cryptexes-and-more/) APFS mounts encrypted volumes, snapshots, cryptexes and more
 - (macOS Sonoma+) [implementations](https://developer.apple.com/documentation/macos-release-notes/macos-14-release-notes#File-System) of exfat and msdos file systems provided by services running in user-space instead of by kernel extensions
