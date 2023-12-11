@@ -25,7 +25,7 @@
 - While DNS encryption [isn't perfect](https://madaidans-insecurities.github.io/encrypted-dns.html) both [Quad9](https://www.quad9.net) and [Cloudflare](https://developers.cloudflare.com/1.1.1.1/setup/) are recommended. Quad9 provide an [easy solution](https://www.quad9.net/news/blog/ios-mobile-provisioning-profiles) with Apple signed profiles. [AdGuard](https://adguard-dns.io) and [NextDNS](https://nextdns.io/) are also options, but some users report problems like false positive filtering and stability/performance issues.
 - Avoid [Kernel extensions](https://support.apple.com/guide/deployment/depa5fb8376f/1/web/1.0) (Catalina and earlier), [System extensions](https://support.apple.com/en-us/HT210999) (Big Sur and later) and [Rosetta](https://support.apple.com/en-us/guide/security/secebb113be1/web). These add unnecessary attack surface.
 - Consider using a [stricter umask](https://support.apple.com/en-us/HT201684) such as 027 or 077 for both system processes and user apps.
-- open Termimal and enable "Secure keyboard entry” at MacOS menu bar to prevent other applications reading the keyboard input while using the terminal
+- open Terminal and enable "Secure keyboard entry” at MacOS menu bar to prevent other applications reading the keyboard input while using the terminal
 - [encrypt](https://support.apple.com/guide/mac-help/mh40593/13.0/mac/13.0) external media
 - (Macbooks only) [control](https://support.apple.com/guide/deployment/depf8a4cb051/web) accessory security
 
