@@ -12,6 +12,7 @@
 - [Enable FileVault](https://support.apple.com/en-us/HT204837)
 
 # General Tips
+- Make sure your security settings in your firmware are set to [Full Security](https://support.apple.com/guide/mac-help/change-security-settings-startup-disk-a-mac-mchl768f7291/mac) (this is the default setting)
 - enable [Lockdown Mode](https://support.apple.com/guide/personal-safety/harden-your-devices-against-mercenary-spyware-ipsd5baf79d0/1.0/web/1.0)
 - enable [Two-factor authentication](https://support.apple.com/en-us/HT204915#setup) for your Apple ID and use FIDO [security keys](https://support.apple.com/en-us/HT213154) for it
 - enable [Advanced Data Protection](https://support.apple.com/en-us/HT202303) for iCloud
