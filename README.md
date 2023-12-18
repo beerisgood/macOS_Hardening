@@ -13,7 +13,6 @@
 
 # General Tips
 - make sure you have [Full Firmware Security](https://support.apple.com/guide/mac-help/change-security-settings-startup-disk-a-mac-mchl768f7291/mac) enabled
-- enable [Lockdown Mode](https://support.apple.com/en-us/105120)
 - enable [Two-factor authentication](https://support.apple.com/en-us/HT204915#setup) for your Apple ID and use FIDO [security keys](https://support.apple.com/en-us/HT213154) for it
 - enable [Advanced Data Protection](https://support.apple.com/en-us/HT202303) for iCloud
 - beside FileVault, (encrypted) [disk images](https://support.apple.com/en-us/guide/disk-utility/dskutl11888/mac) can be created for sensitive files (search for "Create secure image file" at bottom)
@@ -24,10 +23,13 @@
 - Backup with [Time Machine](https://support.apple.com/en-us/HT201250) and make sure you have encryption turned on.
 - While DNS encryption [isn't perfect](https://madaidans-insecurities.github.io/encrypted-dns.html) both [Quad9](https://www.quad9.net) and [Cloudflare](https://developers.cloudflare.com/1.1.1.1/setup/) are recommended. Quad9 provide an [easy solution](https://www.quad9.net/news/blog/ios-mobile-provisioning-profiles) with Apple signed profiles. [AdGuard](https://adguard-dns.io) and [NextDNS](https://nextdns.io/) are also options, but some users report problems like false positive filtering and stability/performance issues.
 - Avoid [Kernel extensions](https://support.apple.com/guide/deployment/depa5fb8376f/1/web/1.0) (Catalina and earlier), [System extensions](https://support.apple.com/en-us/HT210999) (Big Sur and later) and [Rosetta](https://support.apple.com/en-us/guide/security/secebb113be1/web). These add unnecessary attack surface.
-- Consider using a [stricter umask](https://support.apple.com/en-us/HT201684) such as 027 or 077 for both system processes and user apps.
 - open Terminal and enable "Secure keyboard entry” at macOS menu bar to prevent other applications reading the keyboard input while using the terminal
 - [encrypt](https://support.apple.com/guide/mac-help/mh40593/13.0/mac/13.0) external media
 - (Macbooks only) [control](https://support.apple.com/guide/deployment/depf8a4cb051/web) accessory security
+
+## Advanced users/special use case
+- enable [Lockdown Mode](https://support.apple.com/en-us/105120)
+- Consider using a [stricter umask](https://support.apple.com/en-us/HT201684) such as 027 or 077 for both system processes and user apps.
 
 ## Reading/Informational Material
 - [Security-announce](https://lists.apple.com/mailman/listinfo/security-announce) - Product security notifications and announcements from Apple
