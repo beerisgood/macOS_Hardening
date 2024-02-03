@@ -7,7 +7,7 @@
 
 # First steps
 - Distrust all networks by disallowing all incoming connections in [Firewall settings](https://support.apple.com/guide/mac-help/mh34041/mac) (stealth mode).
-- Check for updates and enable [automatic updates]((https://support.apple.com/guide/mac-help/get-macos-updates-mchlpx1065/mac)).
+- Check for updates and enable [automatic updates](https://support.apple.com/guide/mac-help/get-macos-updates-mchlpx1065/mac) for OS and also App Store.
 - If multiple people use your Mac, [limit](https://support.apple.com/guide/mac-help/flvlt003/mac) the number of users with administrator privileges and set up a user account for each person, so that one person can’t modify the files needed by another
 - [Enable FileVault](https://support.apple.com/guide/mac-help/mh11785/mac)
 
