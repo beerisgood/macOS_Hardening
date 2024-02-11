@@ -12,7 +12,7 @@
 - [Enable FileVault](https://support.apple.com/guide/mac-help/mh11785/mac)
 
 # General Tips
-- make sure you have [Full Firmware Security](https://support.apple.com/guide/mac-help/change-security-settings-startup-disk-a-mac-mchl768f7291/mac) enabled
+- make sure you have [Full Firmware Security](https://support.apple.com/guide/mac-help/change-security-settings-startup-disk-a-mac-mchl768f7291/mac) and [System Integrity Protection](https://developer.apple.com/library/archive/documentation/Security/Conceptual/System_Integrity_Protection_Guide/ConfiguringSystemIntegrityProtection/ConfiguringSystemIntegrityProtection.html) enabled
 - enable [Two-factor authentication](https://support.apple.com/102660) for your Apple ID and use FIDO [security keys](https://support.apple.com/HT213154) for it
 - enable [Advanced Data Protection](https://support.apple.com/HT202303) for iCloud
 - beside FileVault, (encrypted) [disk images](https://support.apple.com/guide/disk-utility/dskutl11888/mac) can be created for sensitive files (search for "Create secure image file" at bottom)
