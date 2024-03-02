@@ -27,6 +27,7 @@
 - open Terminal and enable "Secure keyboard entry” at macOS menu bar to prevent other applications reading the keyboard input while using the terminal
 - [encrypt](https://support.apple.com/guide/mac-help/mh40593/) external media
 - (Macbooks only) [control](https://support.apple.com/guide/deployment/depf8a4cb051/web) accessory security
+- with Terminal you can [find](https://github.com/beerisgood/macOS_Hardening/blob/main/Hardened%20Runtime%20Check) Apps lacking the Hardened Runtime
 
 ## Advanced users/special use case
 - enable [Lockdown Mode](https://support.apple.com/105120)
