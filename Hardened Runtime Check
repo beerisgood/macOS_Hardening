@@ -1,0 +1,18 @@
+in Terminal (no root or admin account required):
+for i in /Applications/*.app; do codesign -dv "${i}" &>> /tmp/codes; done; grep -B3 'none' /tmp/codes | grep ^Executable | sed 's/^Executable=/No Hardened Runtime: /g'; rm -rf /tmp/codes
+
+Info:
+As of macOS 10.15 Catalina, by default, all applications must be notarized in order to launch, but there are some get-out clauses that mean there could be unnotarized apps on your system.
+First, users can locally override the requirement for notarization, and this does not require Administrator privileges.
+It’s a common macOS malware technique to socially engineer the user into doing just that.
+Second, Apple flip-flopped somewhat on notarization requirements in the early stages, and apps that were notarized and installed prior to February 2020 under less strict requirements, such as not having the hardened runtime, will run just fine on Catalina even after the stricter requirements came into force.
+
+It is possible to check whether an application does not have a notarization “ticket” stapled to it if you have Xcode tools installed with a much shorter one-liner in Terminal:
+for i in /Applications/* ; do stapler validate "${i}"|grep -B 1 -v worked;done
+
+However, that’s problematic on two counts, quite apart from the fact that it requires Xcode command line tools.
+First, apps can be notarized without the ticket; and indeed, many developers attach the ticket to the DMG or installer rather than the application itself, so simply checking for the ticket will not yield accurate results.
+Second, the main benefit of notarization from a security point of view is that, under the strictest rules, it requires the hardened runtime flag. Apps without such a flag can be modified by malicious processes, so with this trick what we want to do is actually list all applications in the Applications folder (of course, you can and should think about applying the same technique to other folders containing applications), and then testing whether each lacks the required flags. The one-liner outputs the results of codesign to a temporary file, then greps the file for those entries that have no flags at all, indicating that there’s no hardened runtime. The one-liner also cleans up this temporary file after outputting the list of executables matching the search.
+
+Source:
+https://www.sentinelone.com/blog/15-macos-power-tricks-for-security-pros/
