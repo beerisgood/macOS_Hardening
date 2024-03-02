@@ -16,3 +16,13 @@ Second, the main benefit of notarization from a security point of view is that, 
 
 Source:
 https://www.sentinelone.com/blog/15-macos-power-tricks-for-security-pros/
+
+
+Another solution in Terminal (no root or admin account required) but you need to change the path!:
+codesign --display --verbose /path/to/bundle.app
+
+Info:
+The (runtime) flag in the "CodeDirectory" line indicates that your application is hardened.
+
+Source:
+https://wiki.freepascal.org/Hardened_runtime_for_macOS#Verifying_hardening
