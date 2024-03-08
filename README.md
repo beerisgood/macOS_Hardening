@@ -27,7 +27,7 @@
 - open Terminal and enable "Secure keyboard entry” at macOS menu bar to prevent other applications reading the keyboard input while using the terminal
 - [encrypt](https://support.apple.com/guide/mac-help/mh40593/) external media
 - (Macbooks only) [control](https://support.apple.com/guide/deployment/depf8a4cb051/web) accessory security
-- with Activity Monitor you can find Apps lacking the Sandbox and/ or Hardened Runtime. Just [enable](https://developer.apple.com/documentation/security/app_sandbox/protecting_user_data_with_app_sandbox#4098972) the "Restricted" and "Sandbox" column. For the Sandbox part you can also use the Terminal [instead](https://github.com/beerisgood/macOS_Hardening/blob/main/Hardened%20Runtime%20Check).
+- with Activity Monitor you can find Apps lacking the Sandbox and/ or Code injection Protection. Just [enable](https://developer.apple.com/documentation/security/app_sandbox/protecting_user_data_with_app_sandbox#4098972) the "Sandbox" and "Restricted" column. With the [Terminal](https://github.com/beerisgood/macOS_Hardening/blob/main/Hardened%20Runtime%20Check) you can also check the [Hardened Runtime](https://developer.apple.com/documentation/security/hardened_runtime).
 
 ## Advanced users/special use case
 - enable [Lockdown Mode](https://support.apple.com/105120)
