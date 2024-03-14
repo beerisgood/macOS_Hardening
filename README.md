@@ -70,3 +70,4 @@
 - Managed Device Attestation - a [technical exploration](https://jedda.me/managed-device-attestation-a-technical-exploration/)
 - [Built-in](https://www.huntress.com/blog/built-in-macos-security-tools) macOS Security (TCC, File Quarantine, Gatekeeper, XProtect, MRT, XPR)
 - JNUC 2023: Securing Apple Devices in [organization](https://www.youtube.com/watch?v=yxovR80sV7Y) with MDM
+- Apple's [theft prevention system](https://support.apple.com/102541)
