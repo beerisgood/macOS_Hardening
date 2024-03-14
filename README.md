@@ -9,7 +9,7 @@
 - Distrust all networks by disallowing all incoming connections in [Firewall settings](https://support.apple.com/guide/mac-help/mh34041/mac) (stealth mode).
 - Check for updates and enable [automatic updates](https://support.apple.com/guide/mac-help/get-macos-updates-mchlpx1065/mac) for OS and also App Store.
 - If multiple people use your Mac, [limit](https://support.apple.com/guide/mac-help/flvlt003/mac) the number of users with administrator privileges and set up a user account for each person, so that one person can’t modify the files needed by another
-- [Enable FileVault](https://support.apple.com/guide/mac-help/mh11785/mac)
+- [Enable](https://support.apple.com/guide/mac-help/mh11785/mac) FileVault
 
 # General Tips
 - make sure you have [Full Firmware Security](https://support.apple.com/guide/mac-help/change-security-settings-startup-disk-a-mac-mchl768f7291/mac) and [System Integrity Protection](https://developer.apple.com/library/archive/documentation/Security/Conceptual/System_Integrity_Protection_Guide/ConfiguringSystemIntegrityProtection/ConfiguringSystemIntegrityProtection.html) enabled
@@ -28,6 +28,7 @@
 - [encrypt](https://support.apple.com/guide/mac-help/mh40593/) external media
 - (Macbooks only) [control](https://support.apple.com/guide/deployment/depf8a4cb051/web) accessory security
 - with Activity Monitor you can find Apps lacking the Sandbox and/ or Code injection Protection. Just [enable](https://developer.apple.com/documentation/security/app_sandbox/protecting_user_data_with_app_sandbox#4098972) the "Sandbox" and "Restricted" column. With the [Terminal](https://github.com/beerisgood/macOS_Hardening/blob/main/Hardened%20Runtime%20Check) you can also check the [Hardened Runtime](https://developer.apple.com/documentation/security/hardened_runtime).
+- Thunderbolt 4 cables enforces DMA protection [using](https://www.intel.com/content/www/us/en/content-details/753497/security-brief-thunderbolt-4.html) Directed I/O (Intel VT-d) technology that provides IO virtualization (often referred to as IO Memory Management Unit or IOMMU).
 
 ## Advanced users/special use case
 - enable [Lockdown Mode](https://support.apple.com/105120)
