@@ -53,7 +53,7 @@
 - Learn how Private Relay [protects](https://www.apple.com/privacy/docs/iCloud_Private_Relay_Overview_Dec2021.PDF) users’ privacy on the internet
 - [Getting started](https://theevilbit.github.io/posts/getting_started_in_macos_security/) in macOS security / [forensics](https://gist.github.com/0xmachos/6e8b813cffc2035914606bd4cda491d2)
 - Protecting [against malware](https://support.apple.com/guide/security/sec469d47bd8/web) in macOS
-- (Ventura and newer) [AMFI Launch Constraints](https://gist.github.com/beerisgood/8124975071fc04bb64ae32e44e76af0b) - [First Quick Look](https://theevilbit.github.io/posts/amfi_launch_constraints/)
+- (since macOS 13) [AMFI Launch Constraints](https://theevilbit.github.io/posts/launch_constraints_deep_dive/) - [First Quick Look](https://theevilbit.github.io/posts/amfi_launch_constraints/) and [Trust Cache](https://support.apple.com/guide/security/trust-caches-sec7d38fbf97/web)
 - [Evolution](https://github.com/beerisgood/macOS_Hardening/blob/main/Evolution%20of%20privacy%20%26%20security.md) of privacy & security in macOS
 - [Data Vault](https://support.apple.com/guide/security/secc01781f46/1/web/1) - Protecting app access to user data
 - Why your macOS EDR solution [shouldn’t be](https://www.sentinelone.com/blog/why-your-macos-edr-solution-shouldnt-be-running-under-rosetta-2/) running under Rosetta 2
