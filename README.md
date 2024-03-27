@@ -49,7 +49,6 @@
 - [About](https://support.apple.com/HT208394) speculative execution vulnerabilities in ARM-based and Intel CPUs
 - About [System Integrity Protection](https://support.apple.com/HT204899) (SIP) on your Mac
 - About [Gatekeeper](https://support.apple.com/HT202491) (forerunner was [Quarantine](https://0xmachos.com/2019-02-01-Quarantine-Intro/)) - Safely open apps on your Mac
-- [Tracking Prevention](https://webkit.org/tracking-prevention/) in WebKit (Safari browser)
 - Learn how Private Relay [protects](https://www.apple.com/privacy/docs/iCloud_Private_Relay_Overview_Dec2021.PDF) users’ privacy on the internet
 - [Getting started](https://theevilbit.github.io/posts/getting_started_in_macos_security/) in macOS security / [forensics](https://gist.github.com/0xmachos/6e8b813cffc2035914606bd4cda491d2)
 - Protecting [against malware](https://support.apple.com/guide/security/sec469d47bd8/web) in macOS
