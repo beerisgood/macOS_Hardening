@@ -29,6 +29,7 @@
 - (Macbooks only) [control](https://support.apple.com/guide/deployment/depf8a4cb051/web) accessory security
 - with Activity Monitor you can find Apps lacking the Sandbox and/ or Code injection Protection. Just [enable](https://developer.apple.com/documentation/security/app_sandbox/protecting_user_data_with_app_sandbox#4098972) the "Sandbox" and "Restricted" column. With the [Terminal](https://github.com/beerisgood/macOS_Hardening/blob/main/Hardened%20Runtime%20Check) you can also check the [Hardened Runtime](https://developer.apple.com/documentation/security/hardened_runtime).
 - Thunderbolt 4 cables enforces DMA protection [using](https://www.intel.com/content/www/us/en/content-details/753497/security-brief-thunderbolt-4.html) Directed I/O (Intel VT-d) technology that provides IO virtualization (often referred to as IO Memory Management Unit or IOMMU).
+- If Bluetooth accessories like keyboard or mouse is used, stay with official Apple ones as their firmware will automatically be updated by macOS and Apple's SoCs focus on minimizing attack surface by relegating security functions to dedicated hardware with limited functionality.
 
 ## Advanced users/special use case
 - enable [Lockdown Mode](https://support.apple.com/105120)
