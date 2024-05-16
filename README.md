@@ -37,7 +37,7 @@
 
 ## Reading/Informational Material
 - [Security-announce](https://lists.apple.com/mailman/listinfo/security-announce) - Product security notifications and announcements from Apple
-- Apple Platform Security [PDF](https://help.apple.com/pdf/security/en_US/apple-platform-security-guide.pdf)
+- Apple Platform Security [Overview](https://support.apple.com/guide/security/) - [PDF](https://help.apple.com/pdf/security/en_US/apple-platform-security-guide.pdf)
 - Apple Security Research [Blog & Security Bounty](https://security.apple.com)
 - Apple Safety [certifications](https://support.apple.com/guide/certifications/apc353b1b736/web)
 - macOS has [Hardened Runtime](https://developer.apple.com/documentation/security/hardened_runtime) for user space code. This is not required for App Store apps and not all apps enable this.
