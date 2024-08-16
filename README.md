@@ -71,3 +71,4 @@
 - [Built-in](https://www.huntress.com/blog/built-in-macos-security-tools) macOS Security (TCC, File Quarantine, Gatekeeper, XProtect, MRT, XPR)
 - JNUC 2023: Securing Apple Devices in [organization](https://www.youtube.com/watch?v=yxovR80sV7Y) with MDM
 - Apple's [theft prevention system](https://support.apple.com/102541)
+- [runtime protection](https://developer.apple.com/news/?id=saqachfa) in macOS Sequoia
