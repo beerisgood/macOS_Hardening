@@ -72,3 +72,4 @@
 - JNUC 2023: Securing Apple Devices in [organization](https://www.youtube.com/watch?v=yxovR80sV7Y) with MDM
 - Apple's [theft prevention system](https://support.apple.com/102541)
 - [runtime protection](https://developer.apple.com/news/?id=saqachfa) in macOS Sequoia
+- CVE-2023-42929: Why do we [need](https://jhftss.github.io/CVE-2023-42929-Why-Do-We-Need-The-App-Container-Protection/) the App Container Protection
