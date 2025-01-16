@@ -42,7 +42,7 @@
 - Apple Security Research [Blog & Security Bounty](https://security.apple.com)
 - Apple Safety [certifications](https://support.apple.com/guide/certifications/apc353b1b736/web)
 - macOS has [Hardened Runtime](https://developer.apple.com/documentation/security/hardened_runtime) for user space code. This is not required for App Store apps and not all apps enable this.
-- M1 Macs have [Kernel Integrity Protection](https://manuals.info.apple.com/MANUALS/1000/MA1902/en_US/apple-platform-security-guide.pdf#page=50) (KIP) for kernel code
+- M1 Macs have [Kernel Integrity Protection](https://support.apple.com/guide/security/secb7ea06b49/web) (KIP) for kernel code
 - M1 Macs use an [improved implementation of ARM's Pointer Authentication Codes](https://developer.apple.com/documentation/security/preparing_your_app_to_work_with_pointer_authentication) (PAC), ensuring backward and forward-edge protection
 - Apple requires that all applications are [sandboxed](https://developer.apple.com/documentation/security/app_sandbox) _only from the App Store_.
 - some [resources](https://github.com/houjingyi233/macOS-iOS-system-security) about macOS/iOS system security
