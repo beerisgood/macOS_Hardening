@@ -65,9 +65,8 @@
 - macOS Security & Privilege [Escalation](https://book.hacktricks.xyz/macos-hardening/macos-security-and-privilege-escalation)
 - [Let's talk about](https://theevilbit.github.io/posts/macos_authorization/) macOS Authorization
 - [How](https://eclecticlight.co/2023/04/03/how-apfs-mounts-encrypted-volumes-snapshots-cryptexes-and-more/) APFS mounts encrypted volumes, snapshots, cryptexes, and more
-- (macOS Sonoma+) [implementations](https://developer.apple.com/documentation/macos-release-notes/macos-14-release-notes#File-System) of exFAT and MS-DOS file systems provided by services running in user space instead of by kernel extensions
-- (Safari 17.x) [GPU Process](https://webkit.org/blog/14445/webkit-features-in-safari-17-0/) security, [Privacy changes](https://cunderwood.dev/2023/06/09/privacy-changes-coming-to-safari-17/), [blob partitioning](https://webkit.org/blog/14787/webkit-features-in-safari-17-2/#privacy)
-- (macOS 14.0+) [Link Tracking Protection](https://www.apple.com/newsroom/2023/06/apple-announces-powerful-new-privacy-and-security-features/) in Messages, Mail, and Safari
+- (since macOS 14.0) [implementations](https://developer.apple.com/documentation/macos-release-notes/macos-14-release-notes#File-System) of exFAT and MS-DOS file systems provided by services running in user space instead of by kernel extensions, [Link Tracking Protection](https://www.apple.com/newsroom/2023/06/apple-announces-powerful-new-privacy-and-security-features/) in Messages, Mail, and Safari
+- (since Safari 17.x) [GPU Process](https://webkit.org/blog/14445/webkit-features-in-safari-17-0/) security, [Privacy changes](https://cunderwood.dev/2023/06/09/privacy-changes-coming-to-safari-17/), [blob partitioning](https://webkit.org/blog/14787/webkit-features-in-safari-17-2/#privacy)
 - Managed Device Attestation - a [technical exploration](https://jedda.me/managed-device-attestation-a-technical-exploration/)
 - [Built-in](https://www.huntress.com/blog/built-in-macos-security-tools) macOS Security (TCC, File Quarantine, Gatekeeper, XProtect, MRT, XPR)
 - JNUC 2023: Securing Apple Devices in an [organization](https://www.youtube.com/watch?v=yxovR80sV7Y) with MDM
@@ -75,3 +74,4 @@
 - [Runtime protection](https://developer.apple.com/news/?id=saqachfa) in macOS Sequoia
 - CVE-2023-42929: Why do we [need](https://jhftss.github.io/CVE-2023-42929-Why-Do-We-Need-The-App-Container-Protection/) the App Container Protection
 - [SLAP & FLOP](https://predictors.fail) speculative execution attack
+- (since Safari 18.4) Cookies Having Independent Partitioned State ([CHIPS](https://webkit.org/blog/16574/webkit-features-in-safari-18-4/#networking))
