@@ -1,4 +1,4 @@
-![macOS stable](https://badgen.net/badge/icon/MacOS%20Sequoia%2015.4?icon=apple&label) ![GitHub last commit](https://img.shields.io/github/last-commit/beerisgood/macOS_Hardening?label=last%20update%3A)
+![macOS stable](https://badgen.net/badge/icon/MacOS%20Sequoia%2015.4.1?icon=apple&label) ![GitHub last commit](https://img.shields.io/github/last-commit/beerisgood/macOS_Hardening?label=last%20update%3A)
 
 # Device Recommendations
 - Mac with Apple Silicon Chip ([M1](https://en.wikipedia.org/wiki/Apple_M1) or newer) because of it's secure [ARM architecture](https://en.wikipedia.org/wiki/ARM_architecture_family). Newer chips, starting with M2 have better [security features](https://help.apple.com/pdf/security/en_US/apple-platform-security-guide.pdf) like [Secure Page Table Monitor (SPTM) & Trusted Execution Monitor (TXM)](https://support.apple.com/guide/security/sec8b776536b/1/web/1#secd022396fb). M4 adds the [Secure Exclave](https://discussions.apple.com/thread/255753688). So it's best to stick with the most recent ones.
