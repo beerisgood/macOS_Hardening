@@ -9,7 +9,7 @@
 - Distrust all networks by disallowing all incoming connections in [Firewall settings](https://support.apple.com/guide/mac-help/mh34041/mac) (stealth mode).
 - Check for updates and enable [automatic updates](https://support.apple.com/guide/mac-help/get-macos-updates-mchlpx1065/mac) for the OS and also the App Store.
 - If multiple people use your Mac, [limit](https://support.apple.com/guide/mac-help/flvlt003/mac) the number of users with administrator privileges and set up a user account for each person, so that one person can’t modify the files needed by another.
-- [Enable](https://support.apple.com/guide/mac-help/mh11785/mac) FileVault.
+- [Enable](https://support.apple.com/guide/mac-help/mh11785/mac) FileVault and backup the recovery key. You can [check](https://discussions.apple.com/thread/254809188?answerId=260077837022&sortBy=rank#260077837022) for an recovery key and [verify](https://discussions.apple.com/thread/254289127?answerId=258038445022&sortBy=rank#258038445022) if your saved key is valid.
 
 # General Tips
 - Make sure you have [Full Firmware Security](https://support.apple.com/guide/mac-help/change-security-settings-startup-disk-a-mac-mchl768f7291/mac) and [System Integrity Protection](https://developer.apple.com/library/archive/documentation/Security/Conceptual/System_Integrity_Protection_Guide/ConfiguringSystemIntegrityProtection/ConfiguringSystemIntegrityProtection.html) enabled.
