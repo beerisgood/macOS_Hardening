@@ -11,11 +11,11 @@ Ideal for users who value **privacy**, **security**, and **performance**.
 
 - 🖥️ [Device Recommendations](#%EF%B8%8F-device-recommendations)
 - 🛠️ [Preparation](#%EF%B8%8F-preparation)
-- ⚙️ [System Settings]([#%EF%B8%8F-system-settings)
+- ⚙️ [System Settings](#%EF%B8%8F-system-settings)
 - 🧑‍🤝‍🧑 [Users & Groups](#-users--groups)
 - 🌐 [Network and Firewall](#-network-and-firewall)
 - 🛡️ [Secure Browsing](#%EF%B8%8F-secure-browsing)
-- 🧰 [Software]([#-software)
+- 🧰 [Software](#-software)
 - 📋 [General Tips](#-general-tips)
 - 💪 [Advanced users/special use case](#-advanced-usersspecial-use-case)
 - 📚 [Resources](#-resources)
