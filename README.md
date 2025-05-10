@@ -40,7 +40,7 @@ Ideal for users who value **privacy**, **security**, and **performance**.
 
 ## ⚙️ System Settings
 - [Enable](https://support.apple.com/guide/mac-help/mh11785/mac)  **FileVault** (Full Disk Encryption) and backup the recovery key. You can [check](https://discussions.apple.com/thread/254809188?answerId=260077837022&sortBy=rank#260077837022) for an recovery key and [verify](https://discussions.apple.com/thread/254289127?answerId=258038445022&sortBy=rank#258038445022) if your saved key is valid.
-  - Beside FileVault, (encrypted) [disk images](https://support.apple.com/guide/disk-utility/dskutl11888/mac#dsku7bb3d28c) can be created for **sensitive files**
+  - (Encrypted) [disk images](https://support.apple.com/guide/disk-utility/dskutl11888/mac#dsku7bb3d28c) can be created for **sensitive files**. The integrity of these images can be [verified](https://support.apple.com/guide/disk-utility/dskutl15186/22.6/mac/) with [checksums](https://support.apple.com/guide/disk-utility/dskutl1019/22.6/mac). 
   - Also [encrypt](https://support.apple.com/guide/mac-help/mh40593/) external media.
 - Set **Gatekeeper** to "App Store and identified developers".
 - Require a **password immediately** after sleep or screen saver begins.
