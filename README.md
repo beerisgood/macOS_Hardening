@@ -63,9 +63,9 @@ Ideal for users who value **privacy**, **security**, and **performance**.
 - [Turn on](https://support.apple.com/guide/mac-help/mh34041/mac) the **Firewall**, enable blocking all incoming connections for all network and activate stealth mode in [firewall settings](https://support.apple.com/guide/mac-help/mh11783/15.0/mac/).
 - Disable all forms of [remote access](https://support.apple.com/guide/remote-desktop/enable-remote-management-apd8b1c65bd/mac) **sharing settings**.
 - Limit **Location Services** to essential apps only.
-- (iCloud+ needed) [Enable](https://support.apple.com/102602) Private Relay.
-  -  Alternatives are: [Quad9](https://www.quad9.net) and [Cloudflare](https://developers.cloudflare.com/1.1.1.1/setup/ios/). Quad9 provides an [easy solution](https://docs.quad9.net/Setup_Guides/MacOS/Big_Sur_and_later_%28Encrypted%29/) with Apple signed profiles. [AdGuard](https://adguard-dns.io) and [NextDNS](https://nextdns.io/) are also options, but some users report problems like false positive filtering and stability/performance issues.
-  - *Only [Private Relay](https://www.apple.com/privacy/docs/iCloud_Private_Relay_Overview_Dec2021.PDF) supports [Oblivious DNS over HTTPS](https://en.wikipedia.org/wiki/DNS_over_HTTPS#Oblivious_DNS_over_HTTPS) (ODoH)*
+- (iCloud+ needed) [Enable](https://support.apple.com/102602) **Private Relay**.
+  -  Alternatives are: [Quad9](https://www.quad9.net) and [Cloudflare](https://developers.cloudflare.com/1.1.1.1/setup/ios/). Quad9 provides an [easy solution](https://docs.quad9.net/Setup_Guides/MacOS/Big_Sur_and_later_%28Encrypted%29/) with Apple signed profiles. [AdGuard](https://adguard-dns.io) and [NextDNS](https://nextdns.io/) are also options, but some users report problems like **false positive** filtering and **stability/performance** issues.
+  - *Only [Private Relay](https://www.apple.com/privacy/docs/iCloud_Private_Relay_Overview_Dec2021.PDF) **supports** [Oblivious DNS over HTTPS](https://en.wikipedia.org/wiki/DNS_over_HTTPS#Oblivious_DNS_over_HTTPS) (ODoH)*
 
 </br>
 
@@ -79,17 +79,17 @@ Ideal for users who value **privacy**, **security**, and **performance**.
   - **Enable** [Advanced Tracking and Fingerprinting Protection](https://support.apple.com/guide/safari/ibrw1075/)
 
 - Safari **hardening**:
-  - [Enable](https://support.apple.com/guide/safari/ibrw1074/mac/) protection against fraudulent websites
-  - [Enable](https://support.apple.com/guide/safari/ibrw1074/mac/)  protection against non-encrypted HTTP sites
+  - [Enable](https://support.apple.com/guide/safari/ibrw1074/mac/) protection against **fraudulent** websites
+  - [Enable](https://support.apple.com/guide/safari/ibrw1074/mac/)  protection against non-encrypted **HTTP** sites
 
 </br>
 
 ## 🧰 Software
-- Install only from the App Store as there is [a mandatory sandbox for all App Store apps](https://developer.apple.com/documentation/security/app_sandbox). 
-- If not possible, at least [Electron-based](https://www.electronjs.org/apps) programs [should](https://wojciechregula.blog/post/abusing-electron-apps-to-bypass-macos-security-controls/) [_be_](https://medium.com/@metnew/why-electron-apps-cant-store-your-secrets-confidentially-inspect-option-a49950d6d51f) [avoided](https://blog.xpnsec.com/macos-injection-via-third-party-frameworks/) - even in [2024](https://wojciechregula.blog/post/electroniz3r/). 
-- [Avoid](https://sector7.computest.nl/post/2024-04-bringing-process-injection-into-view-exploiting-all-macos-apps-using-nib-files/) using Homebrew and remove [unmaintained](https://blog.kandji.io/twitch-privileged-helper) programs.
-- Avoid [Kernel extensions](https://support.apple.com/guide/deployment/depa5fb8376f/1/web/1.0) (Catalina and earlier), [System extensions](https://support.apple.com/HT210999) (Big Sur and later) and [Rosetta](https://support.apple.com/guide/security/secebb113be1/web).
-- Also VM software like Parallels aren't perfect in [2024](https://khronokernel.com/macos/2024/05/30/CVE-2024-34331.html) nor [2025](https://jhftss.github.io/Parallels-0-day/).
+- Install only from the Apple **App Store** as there is [a mandatory sandbox for all App Store apps](https://developer.apple.com/documentation/security/app_sandbox). 
+  -  If not possible, at least [Electron-based](https://www.electronjs.org/apps) **programs** [should](https://wojciechregula.blog/post/abusing-electron-apps-to-bypass-macos-security-controls/) [_be_](https://medium.com/@metnew/why-electron-apps-cant-store-your-secrets-confidentially-inspect-option-a49950d6d51f) [avoided](https://blog.xpnsec.com/macos-injection-via-third-party-frameworks/) - even in [2024](https://wojciechregula.blog/post/electroniz3r/). 
+- [Avoid](https://sector7.computest.nl/post/2024-04-bringing-process-injection-into-view-exploiting-all-macos-apps-using-nib-files/) using **Homebrew** and remove [unmaintained](https://blog.kandji.io/twitch-privileged-helper) programs.
+- Avoid [Kernel extensions](https://support.apple.com/guide/deployment/depa5fb8376f/1/web/1.0) (Catalina and earlier), [System extensions](https://support.apple.com/HT210999) (Big Sur and later) **and** [Rosetta](https://support.apple.com/guide/security/secebb113be1/web).
+- Also VM software like Parallels **aren't perfect** in [2024](https://khronokernel.com/macos/2024/05/30/CVE-2024-34331.html) nor [2025](https://jhftss.github.io/Parallels-0-day/).
 
 </br>
 
