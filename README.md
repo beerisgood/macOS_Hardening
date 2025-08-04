@@ -63,6 +63,7 @@ Ideal for users who value **privacy**, **security**, and **performance**.
 - [Turn on](https://support.apple.com/guide/mac-help/mh34041/mac) the **Firewall**, enable blocking all incoming connections for all network and activate stealth mode in [firewall settings](https://support.apple.com/guide/mac-help/mh11783/15.0/mac/).
 - Disable all forms of [remote access](https://support.apple.com/guide/remote-desktop/enable-remote-management-apd8b1c65bd/mac) **sharing settings**.
 - Limit **Location Services** to essential apps only.
+- Enable [Mail Privacy Protection](https://support.apple.com/guide/mail/mlhl03be2866/mac) for emails.
 - (iCloud+ needed) [Enable](https://support.apple.com/102602) **Private Relay**.
   -  Alternatives are: [Quad9](https://www.quad9.net) and [Cloudflare](https://developers.cloudflare.com/1.1.1.1/setup/ios/). Quad9 provides an [easy solution](https://docs.quad9.net/Setup_Guides/MacOS/Big_Sur_and_later_%28Encrypted%29/) with Apple signed profiles. [AdGuard](https://adguard-dns.io) and [NextDNS](https://nextdns.io/) are also options, but some users report problems like **false positive** filtering and **stability/performance** issues.
   - *Only [Private Relay](https://www.apple.com/privacy/docs/iCloud_Private_Relay_Overview_Dec2021.PDF) **supports** [Oblivious DNS over HTTPS](https://en.wikipedia.org/wiki/DNS_over_HTTPS#Oblivious_DNS_over_HTTPS) (ODoH)*
