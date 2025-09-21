@@ -77,7 +77,6 @@ Ideal for users who value **privacy**, **security**, and **performance**.
   - [Clear](https://support.apple.com/guide/safari/sfri11471/mac) history and **website Data** to get a fresh start, now with tracking protection.
   - Instead of using insecure, privacy-unfriendly (adblocker) browser **extensions**, use the [Reader](https://support.apple.com/guide/safari/sfri32632/mac) mode.
   - [Hide](https://support.apple.com/guide/safari/sfri35610/mac) **IP address** from trackers / *and Websites (if PrivateRelay is activated)*
-  - **Enable** [Advanced Tracking and Fingerprinting Protection](https://support.apple.com/guide/safari/ibrw1075/)
 
 - Safari **hardening**:
   - [Enable](https://support.apple.com/guide/safari/ibrw1074/mac/) protection against **fraudulent** websites
