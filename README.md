@@ -154,6 +154,7 @@ Ideal for users who value **privacy**, **security**, and **performance**.
 - [SLAP & FLOP](https://predictors.fail) speculative execution attack
 - (since Safari 18.4) Cookies Having Independent Partitioned State ([CHIPS](https://webkit.org/blog/16574/webkit-features-in-safari-18-4/#networking))
 - (since Safari 26.0) Safari [Advanced Fingerprinting Protection](https://webkit.org/blog/17333/webkit-features-in-safari-26-0/#privacy)
+- (since Safari 26.0) Integrity-Policy header on script destinations [enforcement](https://webkit.org/blog/17333/webkit-features-in-safari-26-0/#security)
 
 ---
 ---
