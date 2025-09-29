@@ -1,5 +1,5 @@
 # 🍏 macOS Hardening Guide
-![macOS stable](https://badgen.net/badge/icon/macOS%20Tahoe%2026.0?icon=apple&label) ![GitHub last commit](https://img.shields.io/github/last-commit/beerisgood/macOS_Hardening?label=last%20update%3A) ![Status](https://img.shields.io/badge/status-active-brightgreen)
+![macOS stable](https://badgen.net/badge/icon/macOS%20Tahoe%2026.0.1?icon=apple&label) ![GitHub last commit](https://img.shields.io/github/last-commit/beerisgood/macOS_Hardening?label=last%20update%3A) ![Status](https://img.shields.io/badge/status-active-brightgreen)
 
 Secure your macOS system with this comprehensive hardening guide.  
 Ideal for users who value **privacy**, **security**, and **performance**.
