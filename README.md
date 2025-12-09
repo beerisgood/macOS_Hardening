@@ -158,6 +158,7 @@ Ideal for users who value **privacy**, **security**, and **performance**.
 - Breaking Hardened Runtime: The 0-Day Microsoft Delivered to macOS with [.NET MAUI](https://afine.com/breaking-hardened-runtime-the-0-day-microsoft-delivered-to-macos/)
 - Fake Mac Apps on [GitHub](https://mjtsai.com/blog/2025/09/08/fake-mac-apps-on-github/)
 - Threats of [Unvalidated XPC Clients](https://afine.com/threats-of-unvalidated-xpc-clients-on-macos/) on macOS
+- macOS LPE via the [.localized directory](https://theevilbit.github.io/posts/localized/)
 
 ---
 ---
