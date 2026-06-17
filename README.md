@@ -159,6 +159,7 @@ Ideal for users who value **privacy**, **security**, and **performance**.
 - Fake Mac Apps on [GitHub](https://mjtsai.com/blog/2025/09/08/fake-mac-apps-on-github/)
 - Threats of [Unvalidated XPC Clients](https://afine.com/threats-of-unvalidated-xpc-clients-on-macos/) on macOS
 - macOS LPE via the [.localized directory](https://theevilbit.github.io/posts/localized/)
+- If your Mac [blocks](https://support.apple.com/127377) a Terminal command paste or script
 
 ---
 ---
