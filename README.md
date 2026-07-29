@@ -160,6 +160,7 @@ Ideal for users who value **privacy**, **security**, and **performance**.
 - Threats of [Unvalidated XPC Clients](https://afine.com/threats-of-unvalidated-xpc-clients-on-macos/) on macOS
 - macOS LPE via the [.localized directory](https://theevilbit.github.io/posts/localized/)
 - If your Mac [blocks](https://support.apple.com/127377) a Terminal command paste or script
+- Crossing the Golden Gate: macOS 27's New [Application Support Protection](https://wojciechregula.blog/post/golden-gate-appdata-protection/)
 
 ---
 ---
