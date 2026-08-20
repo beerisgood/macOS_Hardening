@@ -26,7 +26,8 @@ Ideal for users who value **privacy**, **security**, and **performance**.
 ## 🖥️ Device Recommendations
 - Mac with **Apple Silicon** Chip ([M1](https://en.wikipedia.org/wiki/Apple_M1) or newer) because of it's secure [ARM architecture](https://en.wikipedia.org/wiki/ARM_architecture_family).
 - Newer **chips**, starting with M2 have better [security features](https://help.apple.com/pdf/security/en_US/apple-platform-security-guide.pdf) like [Secure Page Table Monitor (SPTM) & Trusted Execution Monitor (TXM)](https://support.apple.com/guide/security/sec8b776536b/1/web/1#secd022396fb).
-- M4 adds the [Secure Exclave](https://discussions.apple.com/thread/255753688). So it's best to stick with the **most recent ones**.
+- M4 adds the [Secure Exclave](https://discussions.apple.com/thread/255753688).
+- M5 significantly enhances security even further with [Memory Integrity Enforcement](https://support.apple.com/en-gb/guide/security/sec8b776536b/1/web/1#sece53178c8f).
 - Older devices (with T2 or T1 chips) are **no longer recommended** because they are vulnerable to [checkm8](https://en.wikipedia.org/wiki/Apple_T2#Security_vulnerabilities), Passware Kit Forensic T2 Add-on, and lack [some hardware security features](https://support.apple.com/guide/security/sec87716a080/1/web/1).
 
 </br>
